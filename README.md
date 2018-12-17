@@ -34,6 +34,12 @@ There are many types of web developer roles, but most can fit into these three c
 
 **What is it?**
 
-Github is a source managment system that is hosted online for remote version control. 
+Github is a source managment system that is hosted online for remote version control.
+
+![git diagram](assets/local-remote-chart.png)
+
+![branches diagram](assets/branches.png)
+
 
 [Github Example](https://github.com/nodejs/node)
+

@@ -15,4 +15,19 @@ There are many types of web developer roles, but most can fit into these three c
 
 ### Developer Tools
 
-CLI / BASH
+**CLI / BASH / Terminal**
+
+![terminal](assets/cli.gif)
+
+[Terminal Cheat Sheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
+
+**Code Editors**
+  - [Visual Studio Code (New hotness)](https://code.visualstudio.com/)
+  - [Sublime Text](https://www.sublimetext.com/)
+  - [Atom](https://atom.io/)
+
+![code](assets/vscode.gif)
+
+**GITHUB**
+
+[Github Example](https://github.com/nodejs/node)

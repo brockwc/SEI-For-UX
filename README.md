@@ -1,8 +1,10 @@
 # WDI for UXDI
 
+![UX and WDI](assets/combined.png)
+
 ## Understanding Developers
 
-### Developer Roles
+### **Developer Roles**
 
 - **Fullstack Web Developer**
   - Works in both developing the Client facing side and Server facing side.
@@ -13,21 +15,25 @@
 
 There are many types of web developer roles, but most can fit into these three catagories. [Here are some examples.](https://blog.codeplace.com/all-the-job-titles-you-can-have-as-a-developer-f16c5f1f1380)
 
-### Developer Tools
+### **Developer Tools**
 
-**CLI / BASH / Terminal**
+**CLI / BASH / Terminal  <img src="assets/terminal1234.png" width=25px/>**
 
 ![terminal](assets/cli.gif)
 
 [Terminal Cheat Sheet](https://gist.github.com/LeCoupa/122b12050f5fb267e75f)
 
-**Code Editors**
+**Code Editors </>**
   - [Visual Studio Code (New hotness)](https://code.visualstudio.com/)
   - [Sublime Text](https://www.sublimetext.com/)
   - [Atom](https://atom.io/)
 
 ![code](assets/vscode.gif)
 
-**GITHUB**
+**GITHUB <img src="assets/Octocat.png" width=50px/>**
+
+**What is it?**
+
+Github is a source managment system that is hosted online for remote version control. 
 
 [Github Example](https://github.com/nodejs/node)

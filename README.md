@@ -225,7 +225,7 @@ When we put it all together we get:
 
 When our page renders out we are greeted with the following: 
 
-<img src="assets/portfolio1.png" width=500px/>
+<img src="assets/portfolio1.png" width=700px/>
 
 #### *YIKES!* 
 

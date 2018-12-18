@@ -109,7 +109,7 @@ Client goes to their browser and types in Google.com -> The browser sends this *
 
 Alot of work for you to look at cat gifs.
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width=200px/>
+<img src="https://i.giphy.com/media/JIX9t2j0ZTN9S/giphy.webp" width=200px/>
 
 Here is a general flowchart.
 

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header, footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: green;
+    padding: .2em;
+}
+
+.menu {
+    margin-left: .3em;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: aqua;
+    color: black;
+}
+
+main {
+    padding: 0 1em;
+}
+
+#hero {
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    width: 97vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 1em auto;
+    border: 2px black solid;
+}
+form input, form button{
+    height: 5vh;
+}
+
+footer p {
+    margin: 0;
+    margin-right: 1em;
+    text-align: right;
+    color: white;
+}

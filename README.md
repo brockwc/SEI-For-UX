@@ -59,6 +59,10 @@ Option + Command + i
 
 ![dev tools](assets/chromeDevTools.gif)
 
+### **Documentation and Google**
+
+Yup. You read that right. Most develeopers you will tell you that a large chunk of their development time is spent in research diving into documentation and digging through google search results to find what they are looking for. 
+
 ## How to Work and Communicate Effectively With Developers
 
 ### **Provide an adequate level of documentation.**
@@ -117,16 +121,16 @@ Here is a general flowchart.
 
 ### **The languages that make up the web.**
 
-  - HTML
-    - The "structure" of a web site.
-  - CSS
-    - The "design" portion of a web site.
-  - Javascript
-    - The "functionality" of a web site.
+  - **HTML**
+    - The *"structure"* of a web site.
+  - **CSS**
+    - The *"design"* portion of a web site.
+  - **Javascript**
+    - The *"functionality"* of a web site.
 
 ### **HTML**
 
-There are two main areas of HTML. The Head and the Body.
+HTML stands for *Hyper Text Markup Language*. There are two main areas to an HTML Document. The Head and the Body.
 
 The **Head** holds the meta data of the site. This includes links to other files and important information including how to detect the screen size.
 
@@ -229,3 +233,144 @@ That is not looking very good. Time to bring in CSS!
 
 ### **CSS**
 
+CSS stands for Cascading Style Sheet. CSS tells our browser how to render our HTML elements.
+
+#### **Initial Styles**
+
+Keep in mind that, even without CSS, your site has design. It's not very good design, but design decisions have been made nonetheless. What styles can you identify?
+
+- White background
+- Black color
+- Times New Roman font
+- Left text alignment
+- Bold headers
+- Blue, underlined links
+- Round, solid black bullets for list items
+- Predetermined font sizes
+- Predetermined margin and padding
+- Predetermined display (inline vs. block)
+
+This is a fall back in case our css fails to load on the page. (Yup all those times a website came up all ugly that's from a failed load!) With the power of CSS selectors we can grab specifiv elements and apply styling. Let's style our portfolio page. 
+
+Let's look at the syntax for CSS. 
+
+```css
+selector {
+    property: value;
+    property: value;
+    property: value;
+}
+```
+
+Lets grab our header and apply some simple styles.
+
+```css
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    background-color: green;
+}
+
+```
+We **selected** a few different things here. the * is a universal selector. We grabbed everything in the document and set its box-sizing to border-box. (This prevents weird margin and padding issues.) Then we grabbed the body and reset the margin to 0 on all sides to fill the application page. Finally we grabbed our header and set its width to 100 visual width and gave it a background color! 
+
+Let's add some more properties to make it look "better".
+
+Let's break down what we see here or a second.
+
+```css
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color: green;
+    padding: .2em;
+}
+
+.menu {
+    margin-left: .3em;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: aqua;
+    color: black;
+}
+
+```
+Alright let's tackle the rest of the page. And check out some new stuff!
+
+```css
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header, footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: green;
+    padding: .2em;
+}
+
+.menu {
+    margin-left: .3em;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: aqua;
+    color: black;
+}
+
+main {
+    padding: 0 1em;
+}
+
+#hero {
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    width: 97vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 1em auto;
+    border: 2px black solid;
+}
+form input, form button{
+    height: 5vh;
+}
+
+footer p {
+    margin: 0;
+    margin-right: 1em;
+    text-align: right;
+    color: white;
+}
+```
+Now this site isn't pretty, but that's where you come in! When you have some time continue to play around with the html and css to get things to move the way you want. You will find out really fast that manipulting elements take a lot of practice. This is why it is so important that when designs come in to the developer that information like margin sizes and padding can really speed along development. The less guess work a developer has to do on sizing the more he can focus on his code.
+
+Over all CSS is a tricky thing to master and even seasoned front end engineers are not a fan of it. 
+
+![css](https://2.bp.blogspot.com/-41v6n3Vaf5s/UeRN_XJ0keI/AAAAAAAAN2Y/YxIHhddGiaw/s1600/css.gif)
+
+There are so many css properties it is impossible to memorize them all. Developers often look at documentation to find what they are looking for.
+
+[CSS MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+And just like that you have learned the fundamentals of HTML and CSS! 
+
+![mind blown](https://i.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.webp)

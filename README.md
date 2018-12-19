@@ -4,6 +4,8 @@
 
 ## Understanding Developers
 
+[Let's start here.](https://www.youtube.com/watch?v=ocwnns57cYQ&feature=youtu.be)
+
 ### **Developer Roles**
 
 - **Fullstack Web Developer**

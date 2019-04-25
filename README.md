@@ -1,4 +1,4 @@
-# WDI for UXDI
+# SEI for UXDI
 
 ![UX and WDI](assets/combined.png)
 

@@ -8,11 +8,11 @@
 
 ### **Developer Roles**
 
-- **Fullstack Web Developer**
+- **Fullstack Developer**
   - Works in both developing the Client facing side and Server facing side.
-- **Front End Web Developer**
+- **FrontEnd Web Developer**
   - Works on the client facing side dealing mostly with HTML, CSS, and Javascript following design patterns handed to them from design team. They are often responsable for connecting the client facing side to the back via API calls.
-- **Back End Web Developer**
+- **BackEnd  Developer**
   - Works on the backend server facing side. Responsible for maintaining the site's database structure and ensures the site is constantly up and running with minimal down time. 
 
 There are many types of web developer roles, but most can fit into these three catagories. [Here are some examples.](https://blog.codeplace.com/all-the-job-titles-you-can-have-as-a-developer-f16c5f1f1380)
@@ -88,7 +88,7 @@ If you do all of this your dev team will be *oh so happy*.
 
 Once again, nothing scares a developer more then a blank canvas. With clear and precise directions developers will follow them through to a tee and deliver a final product. Programmers are by nature **not** design oriented. This occurs due to the technical critical thinking that is important to strong development. So be decisive in your designs and own them. If you are seeking input about functionality or overall appeal of the design feel free to include your developer to create a strong bond, but don't leave your designs open for interpretation. This only slows down development time overall.
 
-### **Communication is key, so be available to clerify.**
+### **Communication is key, so be available to clarify.**
 
 Your developer will have questions about your designs and documentation. Never expect your developer to know all of your lingo. No matter how simple it is. So be open to answering questions that they will have. 
 
@@ -111,7 +111,7 @@ Don't rely soley on your developers code. A second pair of eyes and hands will f
 
 The flow of the internet is directed via this: 
 
-Client goes to their browser and types in Google.com -> The browser sends this **request** to a DNS server and translates the Google.com to an **IP Address** -> With this information the browser and connect directly to the **web server** holding holding all the code for the site. -> The **web server** checks it **database** for information that is percistant across the site and sends it back to the **web server** -> from there the **web server** sends the final site back to the **client side web browser**. 
+Client goes to their browser and types in Google.com -> The browser sends this **request** to a DNS server and translates the Google.com to an **IP Address** -> With this information the browser and connect directly to the **web server** holding holding all the code for the site. -> The **web server** checks it **database** for information that is persistant across the site and sends it back to the **web server** -> from there the **web server** sends the final site back to the **client side web browser**. 
 
 Alot of work for you to look at cat gifs.
 

@@ -235,7 +235,7 @@ That is not looking very good. Time to bring in CSS!
 
 ### **CSS**
 
-CSS stands for Cascading Style Sheet. CSS tells our browser how to render our HTML elements.
+CSS stands for Cascading Style Sheets. CSS tells our browser how to render our HTML elements.
 
 #### **Initial Styles**
 

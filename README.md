@@ -94,7 +94,7 @@ Your developer will have questions about your designs and documentation. Never e
 
 For example: 
 ```
-"What is this arrow suppose to represent on the bottom of the profile page?" 
+"What is this arrow supposed to represent on the bottom of the profile page?" 
 ```
 
 ### **Set realistic deadlines, and stick to them.**

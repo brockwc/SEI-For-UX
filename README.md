@@ -11,9 +11,9 @@
 - **Fullstack Developer**
   - Develops both the client-facing side and server-facing side.
 - **Front-end Web Developer**
-  - Works on the client facing side dealing mostly with HTML, CSS, and Javascript following design patterns handed to them from design team. They are often responsible for connecting the client facing side to the back via API calls.
+  - Works on the client facing side dealing mostly with HTML, CSS, and Javascript following design patterns handed to them from design team.
 - **Back-end  Developer**
-  - Works on the back-end (server-facing) side. Responsible for maintaining the site's database structure and ensures the site is constantly up and running with minimal down time. 
+  - Works on the back-end "server-side" stack. Responsible for maintaining the site's database structure, constructing routes, and handles deployment processes and delivery. 
 
 There are many types of web developer roles, but most can fit into these three categories. [Here are some examples.](https://blog.codeplace.com/all-the-job-titles-you-can-have-as-a-developer-f16c5f1f1380)
 
@@ -36,7 +36,7 @@ There are many types of web developer roles, but most can fit into these three c
 
 **What is it?**
 
-GitHub is a source management system that is hosted online for remote version control. For developers it allows us to create clones, backups, and work together on our software. Some alternatives you might see out there are Gitbucket, GitLabs, and Source Forge.
+Git is a version control system, Github is a place where developers host and share work with others. Git is to Github as writing is to a blog. For developers it allows us to create clones, backups, and work together on our software. Some alternatives you might see out there are Bitbucket, GitLabs, and Source Forge.
 
 How GitHhub works:
 
@@ -69,7 +69,7 @@ Most developers will tell you that a large chunk of their development time is sp
 
 ### **Provide an adequate level of documentation.**
 
-Developers LOVE documentation. Nothing is scarier to a developer than a blank canvas. Leave notes and descriptions of everything in your design layouts to ensure there is no miscommunication on what something is supposed to be/do.
+Developers LOVE documentation. Nothing is scarier to most developers than a blank canvas. Leave notes in the designs you share with developers about as many details are possible to ensure there is no miscommunication on what something is supposed to be/do. If your developers are familiar with the design tools you use, like Sketch or Figma, a lot of the details we need can be found within those tools. For more specific instruction, like for animation details, leave notes or grab some time to talk in person.
 
 Below we have a basic wireframe example. With no documentation we can see how open it is for interpretation. 
 ![no docs](assets/wireframes.png)
@@ -86,16 +86,11 @@ If you do all of this your dev team will be *oh so happy*, and you will be happy
 
 ### **Be decisive.**
 
-Once again - nothing scares a developer more than a blank canvas. With clear and precise directions, most developers will follow them through to a tee and deliver a final product. Programmers are by nature **not** design-oriented. This occurs due to the technical critical thinking that is important to strong development. So be decisive in your designs and own them. If you are seeking input about functionality or overall appeal of the design feel free to include your developer to create a strong bond, but don't leave your designs open for interpretation. This only slows down development time overall.
+Once again - most developers have a tough time building from a blank canvas. With clear and precise directions, most developers will follow them to a tee. Sometimes, even with really clear direction, we miss the mark and need your feedback. So be decisive in your designs and own them - if we missed something, tell us. If you are seeking input about functionality or overall appeal of the design feel free to include your developer to create a strong bond, but don't leave your designs open for interpretation.
 
 ### **Communication is key, so be available to clarify.**
 
 Your developer will have questions about your designs and documentation. Never expect your developer to know all of your lingo, regardless of how simple it is. Be open to answering questions that they will have - even if they seem like they are already intuitive.
-
-For example: 
-```
-"What is this arrow supposed to represent on the bottom of the profile page?" 
-```
 
 ### **Set realistic deadlines, and stick to them.**
 
@@ -111,9 +106,13 @@ Don't rely solely on your developer's code. A second pair of eyes and hands will
 
 The flow of the internet is directed via this: 
 
-Client goes to their browser and types in Google.com -> The browser sends this **request** to a DNS server and translates the Google.com to an **IP Address** -> With this information the browser and connect directly to the **web server** holding holding all the code for the site. -> The **web server** checks it **database** for information that is persistent across the site and sends it back to the **web server** -> from there the **web server** sends the final site back to the **client side web browser**. 
+1. A user goes to their browser and types in www.google.com 
+2. The browser sends this **request** to a server and translates the Google.com URL to an **IP Address**.
+3. With this information the browser can connect directly to the **web server** holding holding all the code for the site.
+4. The **web server**, depending on the request, checks the **database** for information and sends it back to the **web server**
+5. From there the **web server** renders and sends the final site back to the **client side web browser**. 
 
-A lot of work for you to look at cat gifs.
+A lot of work for you to look at cat gifs and it all happens (on a well optimized app) in milliseconds.
 
 <img src="https://i.giphy.com/media/JIX9t2j0ZTN9S/giphy.webp" width=200px/>
 
@@ -121,7 +120,7 @@ Here is a general flowchart.
 
 <img src="assets/webflow.gif" width=200px/>
 
-### **The languages that make up the web.**
+### **The languages that make up the client-side of the web.**
 
   - **HTML**
     - The *"structure"* of a web site.
@@ -134,7 +133,7 @@ Here is a general flowchart.
 
 HTML stands for *Hyper Text Markup Language*. There are two main areas to an HTML Document. The Head and the Body.
 
-The **Head** holds the meta data of the site. This includes links to other files and important information including how to detect the screen size.
+The **`head`** holds the meta data of the site. This includes links to other files and important information including how to detect the screen size.
 
 ```html
 <head>
@@ -147,7 +146,7 @@ The **Head** holds the meta data of the site. This includes links to other files
 </head>
 ```
 
-The **Body** holds the *rendered* content of the website. This is what the user will see and interact with. This in most cases have an internal split of a **Header**, **Main**,and **Footer**.
+The **`body`** holds the *rendered* content of the website. This is what the user will see and interact with. This in most cases have an internal split of a **Header**, **Main**, and **Footer**. The header and footer usually stay the same, page to page, while the content in the main section changes a lot.
 
 
 Let's breakdown a simple static one page portfolio site.
@@ -177,7 +176,7 @@ Let's breakdown a simple static one page portfolio site.
     </footer>
 </body>
 ```
-To tell our document which version of HTML to use we have to add the following around our **head** and **body** :
+To tell our document which version of HTML to use we have to add the following around our **`head`** and **`body`** :
 
 ```html
 <!DOCTYPE html>
@@ -231,11 +230,11 @@ When our page renders out we are greeted with the following:
 
 #### *YIKES!* 
 
-That is not looking very good. Time to bring in CSS!
+Oh no, our site looks like craigslist. Time to bring in CSS!
 
 ### **CSS**
 
-CSS stands for Cascading Style Sheets. CSS tells our browser how to render our HTML elements.
+CSS stands for Cascading Style Sheets. CSS tells our browser how to "paint" our HTML elements to the browser.
 
 #### **Initial Styles**
 
@@ -299,6 +298,7 @@ header{
     color: white;
     text-decoration: none;
 }
+
 .menu:hover {
     background-color: aqua;
     color: black;
@@ -311,9 +311,11 @@ Now, let's tackle the rest of the page!
 * {
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
 }
+
 header, footer{
     width: 100vw;
     height: 5vh;
@@ -327,6 +329,7 @@ header, footer{
     color: white;
     text-decoration: none;
 }
+
 .menu:hover {
     background-color: aqua;
     color: black;
@@ -340,7 +343,7 @@ main {
     text-align: center;
 }
 
-img{
+img {
     margin: 0 auto;
     width: 97vw;
 }
@@ -352,6 +355,7 @@ form {
     margin: 1em auto;
     border: 2px black solid;
 }
+
 form input, form button{
     height: 5vh;
 }
@@ -363,13 +367,12 @@ footer p {
     color: white;
 }
 ```
-This site may not be pretty, but that's where you come in! When you have some time, continue to play around with the HTML and CSS to get things to move the way you want. You will find out really fast that manipulting elements take a lot of practice. This is why it is so important that when designs come in to the developer that information like margin sizes and padding can really speed along development. The less guess work a developer has to do on sizing the more he can focus on his code.
 
-Overall, CSS is a tricky thing to master. Even seasoned front-end engineers run into their own CSS issues from time to time. 
+This site may not be pretty, but it's a start! When you have some time, continue to play around with the HTML and CSS to get things to move the way you want. You will find out really fast that manipulating elements takes a lot of practice but is highly rewarding when it finally looks how you want it to. CSS in particular is a tricky thing to master. Even seasoned front-end engineers run into their own CSS issues all the time. Writing CSS often feels like this:
 
 ![css](https://2.bp.blogspot.com/-41v6n3Vaf5s/UeRN_XJ0keI/AAAAAAAAN2Y/YxIHhddGiaw/s1600/css.gif)
 
-There are so many CSS properties it is impossible to memorize them all. Developers often look at documentation to find what they are looking for.
+## Documentation for Further Reading
 
 [CSS MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
